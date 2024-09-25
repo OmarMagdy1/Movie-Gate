@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Movie-Gate/static/css/main.69ebe9fc.css",
+    "main.js": "/Movie-Gate/static/js/main.352af505.js",
+    "static/js/453.f7f1f87b.chunk.js": "/Movie-Gate/static/js/453.f7f1f87b.chunk.js",
+    "static/media/global-home-bg-comp.png": "/Movie-Gate/static/media/global-home-bg-comp.c2bc89419d6bdf299730.png",
+    "index.html": "/Movie-Gate/index.html",
+    "main.69ebe9fc.css.map": "/Movie-Gate/static/css/main.69ebe9fc.css.map",
+    "main.352af505.js.map": "/Movie-Gate/static/js/main.352af505.js.map",
+    "453.f7f1f87b.chunk.js.map": "/Movie-Gate/static/js/453.f7f1f87b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69ebe9fc.css",
+    "static/js/main.352af505.js"
+  ]
+}
