@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar,
+.footer {
+  background-color: #100f10;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link:hover {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar .navbar-toggler {
+  color: white;
+  border-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.hero {
+  background-image: url("./assets/imgs/global-home-bg-comp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 5rem);
+}
+.card {
+  transition: 0.8s;
+}
+/* .card-img-top {
+  min-height: 250px;
+  max-height: 250px;
+} */
+.card:hover {
+  transform: scale(1.03);
+}
+.card-title {
+  min-height: 57px;
+}
+.card-text {
+  min-height: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+.movie-img img {
+  max-height: 600px;
+  object-fit: cover;
+}
+.login {
+  height: 90vh;
+  background-image: url("./assets/imgs/global-home-bg-comp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.form-container {
+  width: 30%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 2rem 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-element {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  padding: 8px;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: none;
+}
+.error {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+.about {
+  min-height: 77vh;
+}
+.about .text {
+  letter-spacing: 10px;
 }
