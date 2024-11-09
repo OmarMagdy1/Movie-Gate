@@ -12,11 +12,12 @@ function Login() {
   };
   return (
     <div className="login bg-dark">
-      <div className="form-container">
+      <div className="form-container w-50">
         <form noValidate onSubmit={handleSubmit(onHandleSubmit)}>
-          <div className="form-element">
-            <label>Email:</label>
+          <div className="form-element mb-3">
+            <label className="form-label">Email:</label>
             <input
+              className="form-control"
               type="email"
               placeholder="Enter Your Email"
               {...register("email", { required: true })}
@@ -25,9 +26,10 @@ function Login() {
               <p className="error">This Field Is Required !</p>
             )}
           </div>
-          <div className="form-element">
-            <label>Password:</label>
+          <div className="form-element mb-3">
+            <label className="form-label">Password:</label>
             <input
+              className="form-control"
               type="password"
               placeholder="Enter Your Password"
               {...register("password", { required: true, minLength: 7 })}
